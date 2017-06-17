@@ -23,4 +23,4 @@ if [ $? != 0 ]; then
   COMMAND=$JAVA_HOME/bin/java
 fi
 
-$COMMAND -jar $DIR/app.jar
+$COMMAND -jar "$DIR/app.jar"
